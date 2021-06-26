@@ -6,5 +6,5 @@ PROXY: 'http://192.168.1.101'
 ```
 ## Run
 ```shell
-docker-compose up
+docker-compose pull; docker-compose up
 ```
