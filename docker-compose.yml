@@ -1,0 +1,7 @@
+version: "3"
+services:
+
+  web:
+    image: snowsore/hbase-demo
+    environment: 
+        PROXY: 'http://192.168.1.101'
