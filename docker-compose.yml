@@ -3,5 +3,7 @@ services:
 
   web:
     image: snowsore/hbase-demo
+    ports:
+      - '80:80'
     environment: 
         PROXY: 'http://192.168.1.101'
